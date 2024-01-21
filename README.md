@@ -18,7 +18,7 @@ pip install ./thumbnail-maker
 
 Run with `thumbnail-maker`:
 
-```sh
+```
 $ thumbnail-maker ./Music/just\ friends.mp3
 Thumbnail modified for file "./Music/just friends.mp3"
 Original file is backed up as "./Music/just friends.mp3.bak"
