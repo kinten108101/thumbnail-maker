@@ -36,7 +36,22 @@ $ source ./.my-venv/bin/activate
 ```
 Otherwise, run with the `thumbnail-maker` command:
 ```
-$ thumbnail-maker ./Music/just\ friends.mp3
+$ thumbnail-maker "./Music/just friends.mp3"
 Thumbnail modified for file "./Music/just friends.mp3"
 Original file is backed up as "./Music/just friends.mp3.bak"
+```
+
+## Development
+
+Use `scripts/install.sh` to install the package then immediately run it in a single command. You still have to provide input arguments:
+
+```
+$ sh scripts/install.sh "./Music/just friends.mp3"
+Installing to existing venv 'thumbnail_maker'
+  installed package thumbnail_maker 0.0.1, installed using Python 3.11.6
+  These apps are now globally available
+    - thumbnail-maker
+done! ✨ 🌟 ✨
+Thumbnail modified for file "./Music/FulldiveDreamers1/just friends.mp3"
+Original file is backed up as "./Music/FulldiveDreamers1/just friends.mp3.bak"
 ```
