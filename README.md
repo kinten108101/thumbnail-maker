@@ -16,7 +16,7 @@ source ./.my-venv/bin/activate
 pip install ./thumbnail-maker
 ```
 
-Run with `thumbnail-maker`:
+## Running
 
 ```
 $ thumbnail-maker ./Music/just\ friends.mp3
