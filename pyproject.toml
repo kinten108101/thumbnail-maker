@@ -1,0 +1,31 @@
+[project]
+name = "thumbnail_maker"
+version = "0.0.1"
+authors = [
+  { name="Kinten Le", email="kinten108101@protonmail.com" },
+]
+description = "Convert MP3 thumbnail to a square one"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "Pillow"
+]
+
+[project.scripts]
+thumbnail-maker = "thumbnail_maker:main"
+
+[project.urls]
+Homepage = "https://github.com/kinten108101/thumbnail-maker"
+Issues = "https://github.com/kinten108101/thumbnail-maker/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages]
+find = {}  # Scan the project directory with the default parameters
