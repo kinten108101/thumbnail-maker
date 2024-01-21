@@ -78,4 +78,6 @@ def main():
         rename(backup_file_path, file_path)
     
     FNULL.close()
+    print(f"Thumbnail modified for file \"{file_path}\"")
+    print(f"Original file is backed up as \"{backup_file_path}\"")
     
